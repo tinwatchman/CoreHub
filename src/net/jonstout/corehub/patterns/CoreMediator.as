@@ -8,6 +8,14 @@ package net.jonstout.corehub.patterns
 	
 	import org.puremvc.as3.multicore.patterns.mediator.Mediator;
 	
+	/**
+	 * A sample ICoreMediator implementation.
+	 * <p>Mediator to allow individual Cores to connect to the CoreHub
+	 * singleton. Extend this class as necessary in your own code 
+	 * to customize communication with the other Cores.</p> 
+	 * @author Jon Stout <j.stout@jonstout.net>
+	 * @see org.puremvc.as3.multicore.patterns.mediator.Mediator Mediator
+	 */
 	public class CoreMediator extends Mediator implements ICoreMediator
 	{
 		protected var hub:CoreHub;

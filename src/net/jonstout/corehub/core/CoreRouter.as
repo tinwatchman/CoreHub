@@ -3,6 +3,11 @@ package net.jonstout.corehub.core
 	import net.jonstout.corehub.interfaces.ICoreMediator;
 	import net.jonstout.corehub.interfaces.ICoreMessage;
 
+	/**
+	 * Business object that stores and handles the various 
+	 * Observer relationships between the various Cores. 
+	 * @author Jon Stout <j.stout@jonstout.net>
+	 */
 	public class CoreRouter
 	{
 		protected var coreMap:Object;

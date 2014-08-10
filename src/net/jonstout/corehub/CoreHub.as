@@ -1,3 +1,20 @@
+/**
+ * Copyright (c) 2012, Jon Stout
+ * PureMVC AS3 MultiCore Framework - Copyright © 2006-2012 Futurescale, Inc. All rights reserved. See attached license.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 package net.jonstout.corehub
 {
 	import net.jonstout.corehub.core.CoreQueueManager;
@@ -7,6 +24,13 @@ package net.jonstout.corehub
 	import net.jonstout.corehub.messages.BaseCoreMessageType;
 	import net.jonstout.corehub.messages.CoreMessage;
 
+	/**
+	 * A simple, Singleton-based class to enable communication
+	 * between modules using the PureMVC MultiCore framework.
+	 * @author Jon Stout <j.stout@jonstout.net>
+	 * @version 1.0
+	 * @see https://github.com/PureMVC/puremvc-as3-multicore-framework/ PureMVC MultiCore Framework
+	 */
 	public class CoreHub
 	{
 		private static var instance:CoreHub;

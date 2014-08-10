@@ -2,6 +2,10 @@ package net.jonstout.corehub.core
 {
 	import net.jonstout.corehub.interfaces.ICoreMessage;
 
+	/**
+	 * Business object that manages message queues.
+	 * @author Jon Stout <j.stout@jonstout.net>
+	 */
 	public class CoreQueueManager
 	{
 		protected var _isEnabled:Boolean;
